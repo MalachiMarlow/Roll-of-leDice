@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Roll of leDice", "Roll of leDice\Roll of leDice.vbproj", "{BB10D244-D931-43BA-9153-E8636C149078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB10D244-D931-43BA-9153-E8636C149078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB10D244-D931-43BA-9153-E8636C149078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB10D244-D931-43BA-9153-E8636C149078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB10D244-D931-43BA-9153-E8636C149078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
