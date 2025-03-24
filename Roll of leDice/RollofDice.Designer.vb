@@ -30,11 +30,12 @@ Partial Class RollofDice
         '
         'RollDiceListBox
         '
+        Me.RollDiceListBox.Font = New System.Drawing.Font("Consolas", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RollDiceListBox.FormattingEnabled = True
-        Me.RollDiceListBox.ItemHeight = 16
+        Me.RollDiceListBox.ItemHeight = 15
         Me.RollDiceListBox.Location = New System.Drawing.Point(110, 36)
         Me.RollDiceListBox.Name = "RollDiceListBox"
-        Me.RollDiceListBox.Size = New System.Drawing.Size(585, 260)
+        Me.RollDiceListBox.Size = New System.Drawing.Size(585, 259)
         Me.RollDiceListBox.TabIndex = 0
         '
         'RollButton

@@ -1,12 +1,19 @@
-﻿Option Strict On
+﻿'Malachi Marlow
+''Spring 2025
+'RCET2265
+'RollofleDice
+'https://github.com/MalachiMarlow/Roll-of-leDice.git
+
+
+Option Strict On
 Option Explicit On
 Public Class RollofDice
 
     Sub Main()
-        Dim V As String
+        Dim Roll As String
         Dim diceRolls(12) As Integer
 
-        RollDiceListBox.Items.Add("Roll the dice".PadLeft(30))
+        RollDiceListBox.Items.Add("Roll the dice".PadLeft(50))
         RollDiceListBox.Items.Add(StrDup(68, "_"))
         RollDiceListBox.Items.Add(" ")
         RollDiceListBox.Items.Add("  2 |   3 |   4 |   5 |   6 |   7 |   8 |   9 |   10 |   11 |   12 |")
@@ -18,9 +25,11 @@ Public Class RollofDice
         RollDiceListBox.Items.Add(" ")
 
         For i = 2 To UBound(diceRolls)
-            V &= ($"{CStr(diceRolls(i)),4} |")
+            Roll &= ($"{CStr(diceRolls(i)),4} |")
         Next
-        RollDiceListBox.Items.Add(V)
+        RollDiceListBox.Items.Add(Roll)
+        RollDiceListBox.Items.Add(StrDup(68, "_"))
+        RollDiceListBox.Items.Add(" ")
     End Sub
 
     Function randomNumberBetween(max As Integer, min As Integer) As Integer
